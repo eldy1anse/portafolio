@@ -5,7 +5,11 @@ export default function Contacto() {
   return (
     <section
       id="contacto"
-      className="min-h-screen flex flex-col justify-center items-center bg-gray-900 text-white px-4"
+      className="min-h-screen flex flex-col justify-center items-center"
+      style={{
+        backgroundColor: 'var(--color-secundario)',
+        color: 'var(--color-texto)',
+      }}
     >
       <div className="max-w-3xl text-center space-y-6">
         {/* Título con animación de fade-up */}
